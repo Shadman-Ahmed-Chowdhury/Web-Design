@@ -1,0 +1,314 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+/* #3eba3e */
+/* #54d154 */
+
+h1{
+    text-align: center;
+    font-weight: 600px;
+}
+.divider{
+    height: 2px; 
+    width: 40px;
+    display: block;
+    margin: auto; 
+    border-radius: 20%;
+    background-color: #54d154;
+}
+.divider-color{
+    height: 2px; 
+    width: 40px; 
+    display: block;
+    margin: auto; 
+    border-radius: 20%; 
+    background-color: dimgray; 
+}
+
+.text-color{
+    color: #A89B9B; 
+}
+.center{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+/* banner area starts */
+.banner{
+    background-image: url(../images/hello-banner.jpg); 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+.banner .logo{
+    display: block; 
+    margin-left: 20px; 
+    margin-right: 256px;
+}
+.banner input{
+    border-radius: 40px; 
+    opacity: .8; 
+}
+
+.navbar-nav li a{
+    color: white;
+    text-decoration: none; 
+    opacity: .8;
+    padding: 0 25px;
+    transition: .2s;
+}
+.navbar-nav li:hover a{
+    border-top: 3px solid #54d154;
+    opacity: 1;   
+}
+.bannerItem p{
+    margin-top: 145px;
+    font-size: 50px;
+}
+.bannerItem .btn-success{
+    background-color: #3eba3e; 
+    display: block; 
+    margin: auto; 
+    font-size: 20px;
+    border-radius: 40px;
+}
+.bannerItem .btn-light{
+    display: block;
+    margin: auto; 
+    font-size: 14px;
+    border-radius: 40px; 
+    margin-top: 200px;
+}
+/* banner area ends */
+
+/* About area starts */
+.about h5{
+    text-align: center; 
+}
+.about p{
+    text-align: center; 
+    font-size: 14px; 
+    color: #A89B9B; 
+}
+.icon i{
+    font-size: 90px; 
+    color: #54d154; 
+    padding: 20px; 
+    background-color: #e1f3e1; 
+    border-radius: 20px; 
+}
+
+.item button{
+    margin-left: 115px; 
+    background-color: #54d154; 
+    border-radius: 20px; 
+}
+.btn-group button:first-child{
+    border-bottom-left-radius: 20px; 
+    border-top-left-radius: 20px; 
+}
+.btn-group button:last-child{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+.btn-group button{
+    background-color: white; 
+    color: green;
+    border-color: green; 
+}
+.btn-group .btn-secondary:hover{
+    background-color: green; 
+}
+
+/* latest work  */
+.btn-toolbar{
+    margin-left: 50px;
+}
+.latest-work{
+    background-color: #3eba3e ; 
+}
+.latest-work h5{
+    text-align: center; 
+    color: darkgreen;
+}
+.divider-color-2{
+    height: 2px; 
+    width: 40px;
+    display: block;
+    margin: auto; 
+    border-radius: 20%;
+    background-color: darkgreen;
+}
+.latest-work p{
+    text-align: center; 
+    font-size: 14px;
+    color: green;
+}
+.row{
+    display: flex;
+}
+.img-gallery img
+{
+    margin: 10px 10px;
+}
+.work-btn .btn-success{
+    display: block;
+    margin: auto; 
+    font-size: 14px;
+    border-radius: 40px; 
+    margin-top: 50px;
+    background-color: darkgreen; 
+}
+.work-btn .btn-success:hover{
+    background-color: green; 
+}
+
+/* latest work section ends */
+
+/* testimonial section starts */
+.testimonials h5{
+    text-align: center; 
+}
+.first{
+    text-align: center; 
+    font-size: 14px; 
+    color: #A89B9B; 
+}
+.comment p{
+    padding-top: 50px;
+    text-align: center; 
+    justify-content: center; 
+    color: black; 
+}
+.comment img{
+    float: right; 
+}
+/* testimonial section ends */
+
+/* Client section starts*/
+.client h5{
+    text-align: center; 
+}
+.client .client-gallery{
+    padding-left: 100px; 
+}
+.client .btn-light{
+    display: block;
+    margin: auto; 
+    font-size: 16px;
+    width: 200px;
+    color: dimgray; 
+    border-radius: 40px; 
+    margin-top: 50px;
+    background-color: #cccccc;
+}
+/* Client section ends */
+
+/* Team section */
+.team{
+    background-color: #54d154; 
+}
+.team{
+    text-align: center; 
+    color: darkgreen; 
+}
+.team .vertical-line{
+    height: 90px; 
+    width: 2px; 
+    display: block; 
+    margin: auto; 
+    border-radius: 20%;
+    background-color: darkgreen; 
+}
+.team .name{
+    color: white;
+}
+.team .box{
+    height: 22px; 
+    width: 70px;
+    background-color: aliceblue; 
+    border-radius: 40px;
+    font-size: 16px;
+    display: block; 
+    margin: auto;
+}
+.team .box .basketball{
+    color: mediumvioletred;
+}
+.team .box .basketball:hover{
+    color: orangered; 
+}
+.team .box .behance{
+    color: royalblue;
+}
+.team .box .behance:hover{
+    color: blue; 
+}
+.team .box .twitter{ 
+    color: deepskyblue; 
+}
+.team .box .twitter:hover{
+    color: royalblue; 
+}
+.work-with{
+    width: 100%; 
+    height: 80px;
+    background-color: #3eba3e;
+}
+.work-with button{
+    width: 170px;
+    margin-top: 25px;
+    margin-left: 480px;
+    border-radius: 40px;
+    background-color: #54d154; 
+}
+/* Team section ends */
+
+/* last-section */
+.last-section{
+    background-color: #26292d; 
+}
+.last-section h5{
+    color: #aeb8c4;
+    text-align: center;
+}
+.last-section p{
+    color: #aeb8c4;
+    text-align: center; 
+    justify-content: center; 
+}
+.last-section .short-divider{
+    height: 2px; 
+    width: 30px; 
+    display: block;
+    margin: auto; 
+    border-radius: 20%; 
+    background-color: #aeb8c4; 
+}
+.last-section .col-md-10 p{
+    padding-bottom: 0px;
+    float: left;
+}
+.last-section .col-md-10 .btn-success{
+    margin-right: 115px;
+}
+.last-section .col-md-10 .btn-warning{
+    margin-right: 117px;
+}
+.last-section .col-md-10 .btn-info{
+    margin-right: 90px;
+}
+.last-section .col-md-10 .btn-danger{ 
+    margin-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
